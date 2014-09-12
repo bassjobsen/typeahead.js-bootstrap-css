@@ -35,7 +35,10 @@ span.twitter-typeahead .tt-suggestion > p:focus {
   outline: 0;
   background-color: #428bca;
 }
-
+span.twitter-typeahead .tt-suggestion.tt-cursor {
+  color: #ffffff;
+  background-color: #428bca;
+}
 span.twitter-typeahead {
   width: 100%;
 }
