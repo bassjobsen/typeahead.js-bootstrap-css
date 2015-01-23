@@ -22,6 +22,7 @@ span.twitter-typeahead .tt-dropdown-menu {
 span.twitter-typeahead .tt-suggestion > p {
   display: block;
   padding: 3px 20px;
+  margin-bottom: 0px;
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
