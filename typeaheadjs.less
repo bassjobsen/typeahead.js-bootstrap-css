@@ -6,12 +6,17 @@ width: 100%;
 }
 
 .tt-suggestion > p {
-&:extend(.dropdown-menu > li > a);
+  &:extend(.dropdown-menu > li > a);
   &:hover,
   &:focus {
-		&:extend(.dropdown-menu > .active > a);
+	&:extend(.dropdown-menu > .active > a);
   }
 }
+
+.tt-suggestion.tt-cursor > p {
+    &:extend(.dropdown-menu > .active > a);
+}
+
 .input-group & {
 display: block !important;
     .tt-dropdown-menu {
