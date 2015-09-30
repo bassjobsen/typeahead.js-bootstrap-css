@@ -1,26 +1,26 @@
 
 {
-"name": "typeahead.js-bootstrap-css",
-"description": "Bootstrap3 style for typeahead.js using Bootstrap 3 mixins and variables",
-"version": "1.0.1",
-"keywords": [
-"less",
-"bootstrap",
-"typeahead.js"
-],
-"homepage": "https://github.com/bassjobsen/typeahead.js-bootstrap-css/",
-"author": "Bass Jobsen",
-"repository": {
-"type": "git",
-"url": "https://github.com/bassjobsen/typeahead.js-bootstrap-css/"
-},
-"bugs": {
-"url": "https://github.com/bassjobsen/typeahead.js-bootstrap-css/issues"
-},
-"licenses": [
-{
-"type": "MIT",
-"url": "http://www.opensource.org/licenses/MIT"
-}
-]
+  "name": "typeahead.js-bootstrap-css",
+  "description": "Bootstrap3 style for typeahead.js using Bootstrap 3 mixins and variables",
+  "version": "1.0.1",
+  "keywords": [
+    "less",
+    "bootstrap",
+    "typeahead.js"
+  ],
+  "homepage": "https://github.com/bassjobsen/typeahead.js-bootstrap-css/",
+  "author": "Bass Jobsen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bassjobsen/typeahead.js-bootstrap-css/"
+  },
+  "bugs": {
+    "url": "https://github.com/bassjobsen/typeahead.js-bootstrap-css/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
 }
