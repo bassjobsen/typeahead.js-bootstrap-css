@@ -1,18 +1,18 @@
 {
-"name": "typeahead.js-bootstrap3.less",
-"version": "1.0.1",
-"main": [
-"typeaheadjs.css",
-"typeaheadjs.less"
-],
-"dependencies": {
-"bootstrap": "~3.1.0",
-"typeahead.js": "~0.10.0"
-},
-"ignore":[
-".gitignore",
-".gitmodules",
-".travis.yml",
-"package.json"
-]
+  "name": "typeahead.js-bootstrap3.less",
+  "version": "1.0.1",
+  "main": [
+    "typeaheadjs.css",
+    "typeaheadjs.less"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.0",
+    "typeahead.js": "~0.10.0"
+  },
+  "ignore":[
+    ".gitignore",
+    ".gitmodules",
+    ".travis.yml",
+    "package.json"
+  ]
 }
