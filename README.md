@@ -1,6 +1,8 @@
 Typeahead.js and Bootstrap 3
 ============================
 
+For Bootstrap 4 try [typeaheadjs.css](https://github.com/bassjobsen/typeahead.js-bootstrap4-css/)
+
 typeahead.js
 ------------
 The [typeahead.js](https://github.com/twitter/typeahead.js) library consists of 2 components: the suggestion engine, Bloodhound, and the UI view, Typeahead. The suggestion engine is responsible for computing suggestions for a given query. The UI view is responsible for rendering suggestions and handling DOM interactions. Both components can be used separately, but when used together, they can provided a rich typeahead experience.
