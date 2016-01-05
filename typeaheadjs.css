@@ -29,9 +29,9 @@ span.twitter-typeahead .tt-suggestion {
   color: #333333;
   white-space: nowrap;
 }
+span.twitter-typeahead .tt-suggestion.tt-cursor,
 span.twitter-typeahead .tt-suggestion:hover,
-span.twitter-typeahead .tt-suggestion:focus,
-span.twitter-typeahead .tt-suggestion.tt-cursor {
+span.twitter-typeahead .tt-suggestion:focus {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
@@ -43,12 +43,15 @@ span.twitter-typeahead {
 .input-group span.twitter-typeahead {
   display: block !important;
 }
+.input-group span.twitter-typeahead .tt-menu,
 .input-group span.twitter-typeahead .tt-dropdown-menu {
   top: 32px !important;
 }
-.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
-  top: 44px !important;
-}
+.input-group.input-group-sm span.twitter-typeahead .tt-menu,
 .input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
   top: 28px !important;
+}
+.input-group.input-group-lg span.twitter-typeahead .tt-menu,
+.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
+  top: 44px !important;
 }

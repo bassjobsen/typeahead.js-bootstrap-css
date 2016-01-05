@@ -1,40 +1,38 @@
 span.twitter-typeahead {
   width: 100%;
 
-  .tt-menu {
-    &:extend(.dropdown-menu);
-  }
-
-  .tt-dropdown-menu {
+  .tt-menu,
+  .tt-dropdown-menu
+   {
     &:extend(.dropdown-menu);
   }
 
   .tt-suggestion {
     &:extend(.dropdown-menu > li > a);
+    &.tt-cursor,
     &:hover,
     &:focus {
       &:extend(.dropdown-menu > .active > a);
     }
   }
 
-  .tt-suggestion.tt-cursor {
-    &:extend(.dropdown-menu > .active > a);
-  }
-
   .input-group & {
     display: block !important;
+    .tt-menu,
     .tt-dropdown-menu {
       top:32px !important;
     }
   }
-  .input-group.input-group-lg & {
-    .tt-dropdown-menu {
-      top:44px !important;
-    }
-  }
   .input-group.input-group-sm & {
+    .tt-menu,
     .tt-dropdown-menu {
       top:28px !important;
+    }
+  }
+  .input-group.input-group-lg & {
+    .tt-menu,
+    .tt-dropdown-menu {
+      top:44px !important;
     }
   }
 }
