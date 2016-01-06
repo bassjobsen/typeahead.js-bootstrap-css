@@ -18,21 +18,43 @@ span.twitter-typeahead {
 
   .input-group & {
     display: block !important;
+    height: @input-height-base;
     .tt-menu,
     .tt-dropdown-menu {
       top:32px !important;
     }
+    border-radius: @input-border-radius;
+    &:not(:first-child):not(:last-child) {
+      .form-control {
+        border-radius: 0px;
+      } 
+    }
+    &:last-child {
+      .form-control {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+      }
+    }
+     
   }
   .input-group.input-group-sm & {
+    height: @input-height-small;
     .tt-menu,
     .tt-dropdown-menu {
-      top:28px !important;
+      top:@input-height-small !important;
+    }
+    .form-control {
+      &:extend(.input-group-sm > .form-control);
     }
   }
   .input-group.input-group-lg & {
+    height: @input-height-large;
     .tt-menu,
     .tt-dropdown-menu {
-      top:44px !important;
+      top:@input-height-large !important;
     }
-  }
+    .form-control {
+      &:extend(.input-group-lg > .form-control);
+    }
+    } 
 }

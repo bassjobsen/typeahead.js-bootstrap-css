@@ -1,8 +1,7 @@
-
 {
   "name": "typeahead.js-bootstrap-css",
   "description": "Bootstrap3 style for typeahead.js using Bootstrap 3 mixins and variables",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "keywords": [
     "less",
     "bootstrap",
@@ -16,6 +15,10 @@
   },
   "bugs": {
     "url": "https://github.com/bassjobsen/typeahead.js-bootstrap-css/issues"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.3",
+    "typeahead.js": "~0.11"
   },
   "licenses": [
     {
