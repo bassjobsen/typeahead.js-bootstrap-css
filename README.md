@@ -43,3 +43,7 @@ LESS
 Example
 -------
 ![ScreenShot](https://raw.github.com/bassjobsen/typeahead.js-bootstrap-css/master/screenshot.png)
+
+Examples
+--------
+Run `npm install`. Now the .html files can be opened standalone. Thanks to @holtkamp.
