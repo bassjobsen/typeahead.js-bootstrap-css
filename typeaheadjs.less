@@ -23,16 +23,25 @@ span.twitter-typeahead {
     .tt-dropdown-menu {
       top:32px !important;
     }
-    border-radius: @input-border-radius;
     &:not(:first-child):not(:last-child) {
       .form-control {
-        border-radius: 0px;
+        border-radius: 0;
       } 
+    }
+   &:first-child {
+      .form-control {
+        border-top-left-radius: @input-border-radius;
+        border-bottom-left-radius: @input-border-radius;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
     }
     &:last-child {
       .form-control {
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: @input-border-radius;
+        border-bottom-right-radius: @input-border-radius;
       }
     }
      
